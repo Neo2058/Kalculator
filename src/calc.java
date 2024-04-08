@@ -6,12 +6,12 @@ public class calc {
         static Scanner input = new Scanner(System.in);
         static int value_x, value_y;
         static char delimetr;
-        static int if_zero;
+        static int result;
 
-        public static int calc (int first_arg, int second_arg, char delim)
+        public static int calc (int first_arg, int second_arg, char delimetr)
         {
                 int result = 0;
-                switch (delim)
+                switch (delimetr)
                 {
                         case '+':
                                 result = first_arg + second_arg;
